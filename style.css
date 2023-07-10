@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar {
+    background-color: aquamarine;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+
+}
+li {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:coral;
+}
+.home {
+    background-color: lightcyan;
+    height: 90vh;
+}
+.contact {
+    background-color: brown;
+    height: 90vh;
+}
+.about {
+    background-color: cornsilk;
+    height: 90vh;
+}
+.project {
+    background-color: blanchedalmond;
+    height: 90vh;
+}
+.active {
+ color: white;   
+}
